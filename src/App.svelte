@@ -100,11 +100,11 @@
 </main>
 
 <style type="text/scss">
-$background: #008080;
-$frame: #9fdd9c;
+$background: #202833;
+$frame: #413440;
 $empty: none;
-$cassetteA: #9ee07a;
-$cassetteB: #008000;
+$cassetteA: #fdb62f;
+$cassetteB: #8c421c;
 $labelA: #ff69b4;
 $labelB: #ffff00;
 $labelC: #718F8F;
