@@ -1,5 +1,9 @@
 <script>
+<<<<<<< HEAD
   import logo from "./assets/logopink2.png"
+=======
+  import logo from "./assets/logogreen2.png"
+>>>>>>> ca6e3965a9378914638a1c60b8513a8868eba140
   import tape1 from "./assets/tape1.png"
 
   let audio;
