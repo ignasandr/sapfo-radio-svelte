@@ -1,12 +1,11 @@
-
-<script>
+<script context="module">
   import logo from "./assets/logogreen2.png"
   import tape1 from "./assets/tape1.png"
 
   let audio;
   let paused = true;
 
-  function togglePlay() {
+  const togglePlay = () => {
     if (paused) {
       audio.play();
     }
