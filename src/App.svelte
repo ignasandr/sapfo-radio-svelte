@@ -1,5 +1,5 @@
-<script context="module">
-  import logo from "./assets/logogreen2.png"
+<script>
+  import logo from "./assets/logopink2.png"
   import tape1 from "./assets/tape1.png"
 
   let audio;
@@ -92,7 +92,7 @@
         <audio
           bind:this={audio}
           bind:paused
-          src={"http://79.98.30.57:8010/radio.mp3"}
+          src={"https://radijas.kmn.lt/listen/sapfo_radijas/radio.mp3"}
         />
       </div>
     </div>
