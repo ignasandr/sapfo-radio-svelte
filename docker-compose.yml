@@ -13,8 +13,8 @@ services:
     restart: always
     environment:
       VIRTUAL_HOST: sapfo.ignasand.tech, www.sapfo.ignasand.tech
-      # LETSENCRYPT_HOST: sapfo.ignasand.tech, www.sapfo.ignasand.tech
-      # LETSENCRYPT_EMAIL: ignas.an@gmail.com
+      LETSENCRYPT_HOST: sapfo.ignasand.tech, www.sapfo.ignasand.tech
+      LETSENCRYPT_EMAIL: ignas.an@gmail.com
 
 networks:
   default:
