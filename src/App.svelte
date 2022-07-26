@@ -1,4 +1,4 @@
-<script context="module">
+<script>
   import logo from "./assets/logogreen2.png"
   import tape1 from "./assets/tape1.png"
 
