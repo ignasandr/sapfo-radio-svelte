@@ -12,8 +12,8 @@ services:
     #   - '8080:80'
     restart: always
     environment:
-      VIRTUAL_HOST: sapfo.ignasand.tech, www.sapfo.ignasand.tech
-      LETSENCRYPT_HOST: sapfo.ignasand.tech, www.sapfo.ignasand.tech
+      VIRTUAL_HOST: radijas.sapfofest.lt, www.radijas.sapfofest.lt
+      LETSENCRYPT_HOST: radijas.sapfofest.lt, www.radijas.sapfofest.lt
       LETSENCRYPT_EMAIL: ignas.an@gmail.com
 
 networks:
