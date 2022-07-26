@@ -1,0 +1,22 @@
+version: '3'
+
+services:
+  sapfo-radio:
+    container_name: sapfo-radio
+    build:
+      context: .
+      dockerfile: Dockerfile
+    expose:
+    - '80'
+    # ports:
+    #   - '8080:80'
+    restart: always
+    environment:
+      VIRTUAL_HOST: sapfo.ignasand.tech, www.sapfo.ignasand.tech
+      LETSENCRYPT_HOST: sapfo.ignasand.tech, www.sapfo.ignasand.tech
+      LETSENCRYPT_EMAIL: ignas.an@gmail.com
+
+networks:
+  default:
+    external:
+      name: nginx-proxy
