@@ -92,7 +92,7 @@
         <audio
           bind:this={audio}
           bind:paused
-          src={"https://radijas.kmn.lt/listen/sapfo_radijas/radio.mp3"}
+          src={"https://radioadmin.kmn.lt:8443/main"}
         />
       </div>
     </div>
